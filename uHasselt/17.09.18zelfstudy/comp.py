@@ -1,0 +1,5 @@
+print("what is the size of teams?")
+t = int(input())
+print("what is the number of participants?")
+p = int(input())
+print("we have ", p // t , "teams and ", p % t , "remaining participants" )
